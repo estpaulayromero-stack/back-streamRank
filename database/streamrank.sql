@@ -1,17 +1,3 @@
--- ============================================================
---  STREAMRANK — BASE DE DATOS COMPLETA MARIA DB (XAMPP)
--- ============================================================
--- Importar en phpMyAdmin
--- o ejecutar:
---
--- mysql -u root -p < streamrank.sql
--- ============================================================
-
-
--- ============================================================
--- CREAR BASE DE DATOS
--- ============================================================
-
 CREATE DATABASE IF NOT EXISTS streamrank
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_unicode_ci;
