@@ -26,7 +26,7 @@ def get_trailer(mid):
 def fetch_peliculas():
     peliculas = []
     for page in range(1, 4):
-        params = {"api_key":API_KEY,"language":"es-ES","with_watch_providers":"384","watch_region":"US","sort_by":"vote_average.desc","vote_count.gte":500,"page":page}
+        params = {"api_key":API_KEY,"language":"es-ES","with_watch_providers": "384|1899|29","watch_region":"US","sort_by":"vote_average.desc","vote_count.gte":500,"page":page}
         try:
             r = requests.get(f"{BASE_URL}/discover/movie", params=params, timeout=10)
             r.raise_for_status()
