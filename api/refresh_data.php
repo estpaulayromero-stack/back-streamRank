@@ -67,8 +67,7 @@ $jsonPath = __DIR__ . '/../json/' . $category . '_top50.json';
 
     // Ejecutar el script Python
     $pythonPath = 'python'; // O 'python3' si es necesario
-    $command = escapeshellcmd($pythonPath . ' ' . $scriptPath);
-    
+$command = "\"$pythonPath\" \"$scriptPath\"";    
     // Ejecutar con redirección de errores
     $output = [];
     $returnCode = 0;
