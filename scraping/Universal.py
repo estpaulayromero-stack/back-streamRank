@@ -49,7 +49,7 @@ def main():
     print(f"  Obteniendo tráilers...")
     for i,p in enumerate(top,1):
         p["posicion"]=i; p["trailer"]=get_trailer(p["tmdb_id"])
-        print(f"    {i:02d}. {p['titulo']} ⭐{p['rating']}")
+        print(f"    {i:02d}. {p['titulo']} {p['rating']}")
     os.makedirs(JSON_DIR,exist_ok=True)
     resultado={"categoria":"universal","nombre":"Universal Studios","plataforma":"PRIME VIDEO","color":"#1a1a2e","descripcion":"Las grandes producciones de Universal Studios","fecha_actualizacion":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"total":len(top),"peliculas":top}
     path=os.path.join(JSON_DIR,"universal_top50.json")

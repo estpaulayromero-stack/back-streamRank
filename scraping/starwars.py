@@ -49,7 +49,7 @@ def main():
     print(f"  Obteniendo tráilers...")
     for i,p in enumerate(top,1):
         p["posicion"]=i; p["trailer"]=get_trailer(p["tmdb_id"])
-        print(f"    {i:02d}. {p['titulo']} ⭐{p['rating']}")
+        print(f"    {i:02d}. {p['titulo']} {p['rating']}")
     os.makedirs(JSON_DIR,exist_ok=True)
     resultado={"categoria":"starwars","nombre":"Star Wars","plataforma":"DISNEY+","color":"#ffe81f","descripcion":"Toda la saga de Star Wars","fecha_actualizacion":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"total":len(top),"peliculas":top}
     path=os.path.join(JSON_DIR,"starwars_top50.json")

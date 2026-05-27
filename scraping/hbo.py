@@ -49,7 +49,7 @@ def main():
     print(f"  Obteniendo tráilers...")
     for i,p in enumerate(top,1):
         p["posicion"]=i; p["trailer"]=get_trailer(p["tmdb_id"])
-        print(f"    {i:02d}. {p['titulo']} ⭐{p['rating']}")
+        print(f"    {i:02d}. {p['titulo']} {p['rating']}")
     os.makedirs(JSON_DIR,exist_ok=True)
     resultado={"categoria":"hbo","nombre":"HBO Max","plataforma":"MAX","color":"#5822b4","descripcion":"El mejor contenido de HBO Max","fecha_actualizacion":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"total":len(top),"peliculas":top}
     path=os.path.join(JSON_DIR,"hbo_top50.json")

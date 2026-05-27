@@ -79,7 +79,7 @@ def main():
     for i, p in enumerate(top, 1):
         p["posicion"] = i
         p["trailer"]  = get_trailer(p["tmdb_id"])
-        print(f"    {i:02d}. {p['titulo']} ⭐{p['rating']}")
+        print(f"    {i:02d}. {p['titulo']} {p['rating']}")
 
     os.makedirs(JSON_DIR, exist_ok=True)
     resultado = {
