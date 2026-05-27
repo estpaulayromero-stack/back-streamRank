@@ -45,8 +45,9 @@ try {
     }
 
     $script = $categoryMap[$category];
-    $scriptPath = __DIR__ . '/scraping/' . $script;
-    $jsonPath = __DIR__ . '/json/' . $category . '_top50.json';
+    $scriptPath = __DIR__ . '/../scraping/' . $script;
+$jsonPath = __DIR__ . '/../json/' . $category . '_top50.json';
+   
 
     // Verificar que el script existe
     if (!file_exists($scriptPath)) {
