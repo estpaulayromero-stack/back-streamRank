@@ -35,7 +35,7 @@ def fetch_peliculas():
     return peliculas
 
 def main():
-    print("🎬 Scrapeando Universal Studios...")
+    print("Scrapeando Universal Studios...")
     raw = fetch_peliculas()
     print(f"  {len(raw)} películas brutas")
     vistos, limpias = set(), []
@@ -54,6 +54,6 @@ def main():
     resultado={"categoria":"universal","nombre":"Universal Studios","plataforma":"PRIME VIDEO","color":"#1a1a2e","descripcion":"Las grandes producciones de Universal Studios","fecha_actualizacion":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"total":len(top),"peliculas":top}
     path=os.path.join(JSON_DIR,"universal_top50.json")
     with open(path,"w",encoding="utf-8") as f: json.dump(resultado,f,ensure_ascii=False,indent=2)
-    print(f"  ✅ Guardado en {path}")
+    print(f"Guardado en {path}")
 
 if __name__ == "__main__": main()

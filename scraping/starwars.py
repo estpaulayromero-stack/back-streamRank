@@ -35,7 +35,7 @@ def fetch_peliculas():
     return peliculas
 
 def main():
-    print("🎬 Scrapeando Star Wars...")
+    print("Scrapeando Star Wars...")
     raw = fetch_peliculas()
     print(f"  {len(raw)} películas brutas")
     vistos, limpias = set(), []
@@ -54,6 +54,6 @@ def main():
     resultado={"categoria":"starwars","nombre":"Star Wars","plataforma":"DISNEY+","color":"#ffe81f","descripcion":"Toda la saga de Star Wars","fecha_actualizacion":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"total":len(top),"peliculas":top}
     path=os.path.join(JSON_DIR,"starwars_top50.json")
     with open(path,"w",encoding="utf-8") as f: json.dump(resultado,f,ensure_ascii=False,indent=2)
-    print(f"  ✅ Guardado en {path}")
+    print(f"Guardado en {path}")
 
 if __name__ == "__main__": main()

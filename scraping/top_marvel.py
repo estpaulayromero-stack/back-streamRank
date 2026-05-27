@@ -51,7 +51,7 @@ def fetch_peliculas():
     return peliculas
 
 def main():
-    print("🎬 Scrapeando Marvel Studios...")
+    print("Scrapeando Marvel Studios...")
     raw = fetch_peliculas()
     print(f"  {len(raw)} películas brutas obtenidas")
 
@@ -92,7 +92,7 @@ def main():
     path = os.path.join(JSON_DIR, "marvel_top50.json")
     with open(path, "w", encoding="utf-8") as f:
         json.dump(resultado, f, ensure_ascii=False, indent=2)
-    print(f"  ✅ Guardado en {path}")
+    print(f"Guardado en {path}")
 
 if __name__ == "__main__":
     main()
