@@ -73,6 +73,14 @@ $jsonPath = __DIR__ . '/../json/' . $category . '_top50.json';
     $output = [];
     $returnCode = 0;
     exec($command . ' 2>&1', $output, $returnCode);
+    exec($command . ' 2>&1', $output, $returnCode);
+
+echo json_encode([
+    'command' => $command,
+    'output' => $output,
+    'returnCode' => $returnCode
+]);
+exit;
 
     if ($returnCode !== 0) {
     http_response_code(500);
