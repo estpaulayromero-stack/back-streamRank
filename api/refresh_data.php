@@ -70,15 +70,20 @@ $jsonPath = __DIR__ . '/../json/' . $category . '_top50.json';
     exec($command . ' 2>&1', $output, $returnCode);
 
     if ($returnCode !== 0) {
-        http_response_code(500);
-        echo json_encode([
-            'success' => false,
-            'error' => 'Error ejecutando script Python',
-            'return_code' => $returnCode,
-            'output' => implode("\n", $output)
-        ]);
-        exit;
-    }
+    http_response_code(500);
+
+    echo json_encode([
+        'success' => false,
+        'error' => 'Error ejecutando script Python',
+        'command' => $command,
+        'return_code' => $returnCode,
+        'output' => $output,
+        'script_path' => $scriptPath
+    ], JSON_PRETTY_PRINT);
+
+    exit;
+}
+
 
     // Esperar un momento a que se escriba el JSON
     sleep(1);
