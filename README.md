@@ -1,4 +1,4 @@
-🔧 Backend – Nombre del Proyecto
+🔧 Backend – Streamrank
 
 Este repositorio contiene el backend del sistema desarrollado con php.
 
@@ -22,24 +22,67 @@ Retornar respuestas en formato JSON.
 
 🏗️ Arquitectura
 
-El backend sigue una estructura modular:
+El backend sigue una arquitectura modular basada en endpoints PHP:
 
-Routes: Definición de endpoints.
+api/
 
-Controllers: Lógica del sistema.
+Contiene los endpoints que reciben peticiones del frontend:
 
-Models: Acceso a base de datos.
+login.php → autenticación
+registro.php → creación de usuarios
+listas.php → manejo de listas personales
+historial.php → historial de visualización
+tops.php → tops personalizados
+perfil.php → configuración de usuario
+refresh_data.php → ejecución de scrapers Python
+json/
 
-Database: Conexión y scripts SQL.
+Archivos JSON generados automáticamente por los scrapers.
+
+scraping/
+
+Scripts Python encargados de consumir TMDb y generar rankings.
+
+config.php
+
+Archivo compartido para conexión a base de datos y configuración global.
 
 📡 Endpoints
 Usuarios
-Método	Ruta	Descripción
-GET	/api/users	Obtener usuarios
-POST	/api/users	Crear usuario
-PUT	/api/users/:id	Actualizar usuario
-DELETE	/api/users/:id	Eliminar usuario
-🌍 URL del Backend en Producción
+Método	Ruta	            Descripción
+POST	/api/login.php	    Iniciar sesión
+POST	/api/registro.php	Registrar usuario
+POST	/api/perfil.php 	Actualizar perfil
+Listas
+Método	Ruta	            Descripción
+GET	/api/listas.php	        Obtener listas
+POST	/api/listas.php	    Crear lista
+DELETE	/api/listas.php  	Eliminar lista
+Historial
+Método	Ruta            	Descripción
+GET	/api/historial.php	    Obtener historial
+POST	/api/historial.php	Agregar historial
+DELETE	/api/historial.php	Eliminar historial
+Scraping
+Método	Ruta	                        Descripción
+GET	/api/refresh_data.php?cat=netflix	Ejecuta scraper y actualiza JSON
+🗄️ Base de Datos
+
+Motor utilizado:
+
+MariaDB (phpMyAdmin / XAMPP)
+
+Tablas principales:
+
+users
+listas
+historial
+tops_personales
+tops_items
+
+Conexión usando:
+
+$conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 Colocar aquí la URL generada por Render:
 
