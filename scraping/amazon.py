@@ -67,7 +67,7 @@ def fetch_series():
 
 def normalizar_pelicula(p):
     gids = p.get("genre_ids", [])
-    dur  = get_duracion(p["id"])
+    dur = get_duracion(p["id"], "pelicula")
     return {
         "tmdb_id": p["id"], "tipo": "película",
         "titulo": p.get("title", "Sin título"),
@@ -77,13 +77,14 @@ def normalizar_pelicula(p):
         "imagen_url": f"{IMG_BASE}{p['poster_path']}" if p.get("poster_path") else "",
         "fecha_estreno": p.get("release_date", ""),
         "descripcion": p.get("overview", "")[:300],
-        "duracion_min": dur[0] if isinstance(dur, tuple) else 0,
-        "duracion": dur[1] if isinstance(dur, tuple) else "—",
+        "duracion_min": dur["minutos"],
+        "duracion": dur["texto"],
         "trailer": "",
     }
 
 def normalizar_serie(s):
     gids = s.get("genre_ids", [])
+    dur = get_duracion(s["id"], "serie")
     return {
         "tmdb_id": s["id"], "tipo": "serie",
         "titulo": s.get("name", "Sin título"),
@@ -93,7 +94,9 @@ def normalizar_serie(s):
         "imagen_url": f"{IMG_BASE}{s['poster_path']}" if s.get("poster_path") else "",
         "fecha_estreno": s.get("first_air_date", ""),
         "descripcion": s.get("overview", "")[:300],
-        "duracion_min": 0, "duracion": "Serie TV", "trailer": "",
+        "duracion_min": dur["minutos"],
+        "duracion": dur["texto"],
+        "trailer": "",
     }
 
 def main():

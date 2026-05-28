@@ -92,38 +92,42 @@ def fetch_series():
 # ── Normalizar item película ──────────────────────────────────
 def normalizar_pelicula(p):
     gids = p.get("genre_ids", [])
-    dur  = get_duracion(p["id"])          # devuelve (min, "1h 30min")
+    dur = get_duracion(p["id"], "pelicula")
+
     return {
-        "tmdb_id":       p["id"],
-        "tipo":          "película",
-        "titulo":        p.get("title", "Sin título"),
-        "rating":        round(p.get("vote_average", 0), 1),
-        "votos":         p.get("vote_count", 0),
-        "genero":        GENEROS.get(gids[0], "Drama") if gids else "Drama",
-        "imagen_url":    f"{IMG_BASE}{p['poster_path']}" if p.get("poster_path") else "",
+        "tmdb_id": p["id"],
+        "tipo": "película",
+        "titulo": p.get("title", "Sin título"),
+        "rating": round(p.get("vote_average", 0), 1),
+        "votos": p.get("vote_count", 0),
+        "genero": GENEROS.get(gids[0], "Drama") if gids else "Drama",
+        "imagen_url": f"{IMG_BASE}{p['poster_path']}" if p.get("poster_path") else "",
         "fecha_estreno": p.get("release_date", ""),
-        "descripcion":   p.get("overview", "")[:300],
-        "duracion_min":  dur[0] if isinstance(dur, tuple) else 0,
-        "duracion":      dur[1] if isinstance(dur, tuple) else "—",
-        "trailer":       "",
+        "descripcion": p.get("overview", "")[:300],
+        "duracion_min": dur["minutos"],
+        "duracion": dur["texto"],
+        "trailer": "",
     }
 
 # ── Normalizar item serie ─────────────────────────────────────
 def normalizar_serie(s):
+
     gids = s.get("genre_ids", [])
+    dur = get_duracion(s["id"], "serie")
+
     return {
-        "tmdb_id":       s["id"],
-        "tipo":          "serie",
-        "titulo":        s.get("name", "Sin título"),
-        "rating":        round(s.get("vote_average", 0), 1),
-        "votos":         s.get("vote_count", 0),
-        "genero":        GENEROS.get(gids[0], "Drama") if gids else "Drama",
-        "imagen_url":    f"{IMG_BASE}{s['poster_path']}" if s.get("poster_path") else "",
-        "fecha_estreno": s.get("first_air_date", ""),   # ← campo correcto para series
-        "descripcion":   s.get("overview", "")[:300],
-        "duracion_min":  0,     # series no tienen duración fija por episodio aquí
-        "duracion":      "Serie TV",
-        "trailer":       "",
+        "tmdb_id": s["id"],
+        "tipo": "serie",
+        "titulo": s.get("name", "Sin título"),
+        "rating": round(s.get("vote_average", 0), 1),
+        "votos": s.get("vote_count", 0),
+        "genero": GENEROS.get(gids[0], "Drama") if gids else "Drama",
+        "imagen_url": f"{IMG_BASE}{s['poster_path']}" if s.get("poster_path") else "",
+        "fecha_estreno": s.get("first_air_date", ""),
+        "descripcion": s.get("overview", "")[:300],
+        "duracion_min": dur["minutos"],
+        "duracion": dur["texto"],
+        "trailer": "",
     }
 
 # ── Main ──────────────────────────────────────────────────────
