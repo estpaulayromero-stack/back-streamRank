@@ -18,14 +18,18 @@ $categoria = trim($data['categoria'] ?? '');
 
 // Mapa categoria -> archivo scraper
 $scrapers = [
-    'marvel'    => 'scraper_marvel.py',
-    'netflix'   => 'scraper_netflix.py',
-    'warner'    => 'scraper_warner.py',
-    'disney'    => 'scraper_disney.py',
-    'hbo'       => 'scraper_hbo.py',
-    'amazon'    => 'scraper_amazon.py',
-    'universal' => 'scraper_universal.py',
-    'starwars'  => 'scraper_starwars.py',
+    'marvel'    => 'marvel.py',
+    'netflix'   => 'netflix.py',
+    'warner'    => 'warner.py',
+    'disney'    => 'disney.py',
+    'hbo'       => 'hbo.py',
+    'amazon'    => 'amazon.py',
+    'universal' => 'universal.py',
+    'starwars'  => 'starwars.py',
+    'appletv'   => 'appletv.py',
+    'jamesbond'  => 'jamesbond.py',
+    'dcestudios'  => 'dcestudios.py',
+    'ghibli'  => 'ghibli.py',
 ];
 
 if (!$categoria || !isset($scrapers[$categoria])) {

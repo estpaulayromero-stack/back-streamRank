@@ -1,12 +1,10 @@
 🔧 Backend – Nombre del Proyecto
 
-Este repositorio contiene el backend del sistema desarrollado con Node.js sin frameworks y desplegado en Render.
+Este repositorio contiene el backend del sistema desarrollado con php.
 
 👥 Integrantes
 
-Nombre completo – Código
-
-Nombre completo – Código
+Paula Yurany Romero Rojas - 1202544 
 
 🎯 Objetivo del Backend
 
