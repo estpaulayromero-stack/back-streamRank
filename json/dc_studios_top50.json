@@ -4,19 +4,21 @@
   "plataforma": "MAX",
   "color": "#0075c4",
   "descripcion": "Lo mejor de DC Studios",
-  "fecha_actualizacion": "2026-05-25 08:55:08",
+  "fecha_actualizacion": "2026-05-27 20:16:20",
   "total": 13,
   "peliculas": [
     {
       "tmdb_id": 539517,
       "titulo": "Constantine: Ciudad de Demonios",
       "rating": 7.7,
-      "votos": 659,
+      "votos": 658,
       "genero": "Fantasía",
       "imagen_url": "https://image.tmdb.org/t/p/w500/dboNLFpCn4BBFUuFXNvOtf9Ty8J.jpg",
       "fecha_estreno": "2018-10-04",
       "descripcion": "10 años después de un trágico error, un padre de familia, Chas, y un detective, John Constantine, intentan curar a la hija de Chas, Trish, de un misterioso coma. Con la ayuda de la Enfermera Pesadilla, la influyente Reina de los Ángeles y el brutal dios azteca Mictlantecuhtli, la pareja tendrá que e",
       "trailer": "https://www.youtube.com/embed/Tgujmtdj_3c",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 1
     },
     {
@@ -29,6 +31,8 @@
       "fecha_estreno": "2019-07-21",
       "descripcion": "El quinteto cómico de hoy en día se enfrenta a sus contrapartes de 2003 cuando los villanos de cada uno de sus mundos unen fuerzas para enfrentar a los dos equipos de Titán. Tendrán que dejar de lado sus diferencias y trabajar juntos para combatir a Trigon, Hexagon, Santa Claus (¡es cierto, Santa!) ",
       "trailer": "https://www.youtube.com/embed/vwWw5nQMewU",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 2
     },
     {
@@ -41,18 +45,22 @@
       "fecha_estreno": "2018-07-24",
       "descripcion": "Death of Superman es una película animada de superhéroes de 2018 perteneciente al universo de Películas animadas originales del Universo DC. Dirigida por Jake Castorena y Sam Liu, esta es una nueva adaptación del cómic basado en el mismo arco argumental, y una versión de la película de 2007, La muer",
       "trailer": "https://www.youtube.com/embed/J5aMJ1qMgA8",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 3
     },
     {
       "tmdb_id": 408647,
       "titulo": "Jóvenes titanes: El contrato de Judas",
       "rating": 7.4,
-      "votos": 758,
+      "votos": 759,
       "genero": "Ciencia Ficción",
       "imagen_url": "https://image.tmdb.org/t/p/w500/mRr1yD7KFS88hesTjQCURpK0A7w.jpg",
       "fecha_estreno": "2017-04-04",
       "descripcion": "Tara Markov es una chica que tiene poder sobre la tierra y la piedra; ella también es más de lo que parece. ¿Es la nueva Teen Titan una aliada o una amenaza? ¿Y cuáles son los planes del mercenario Deathstroke para los Titanes? Adaptación del famoso cómic publicado en 1984, escrito por Marv Wolfman ",
       "trailer": "https://www.youtube.com/embed/GIeoysdR8AQ",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 4
     },
     {
@@ -65,18 +73,22 @@
       "fecha_estreno": "2017-01-24",
       "descripcion": "Cuando un grupo de demonios crean una serie de alucinaciones entre la población que les lleva a cometer crímenes violentos, Batman y el resto de la Liga de la Justicia se ve en la necesidad de formar un nuevo grupo de superhéroes con capacidades mágicas, liderado por Constantine, para salvar a la hu",
       "trailer": "https://www.youtube.com/embed/dpPy3sIxbmA",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 5
     },
     {
       "tmdb_id": 324849,
       "titulo": "Batman: La LEGO película",
       "rating": 7.2,
-      "votos": 5400,
+      "votos": 5405,
       "genero": "Animación",
       "imagen_url": "https://image.tmdb.org/t/p/w500/9F7OQVDMmvUJVwI7s0yzGNftC2F.jpg",
       "fecha_estreno": "2017-02-08",
       "descripcion": "Spin-off de \"La LEGO Película\", protagonizado por Batman. En esta ocasión, el irreverente Batman, que también tiene algo de artista frustrado, intentará salvar la ciudad de Gotham de un peligroso villano, el Joker. Pero no podrá hacerlo solo, y tendrá que aprender a trabajar con sus demás aliados.",
       "trailer": "https://www.youtube.com/embed/rZKGmvijSBE",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 6
     },
     {
@@ -89,6 +101,8 @@
       "fecha_estreno": "2018-07-27",
       "descripcion": "Cuando los Jóvenes Titanes se enteran de que otros superhéroes de DC han realizado sus propias películas, estos buscaran encontrar en un viaje épico un director perfecto para su debut en la gran pantalla, pero un viejo enemigo tiene otras ideas planeadas para ellos.",
       "trailer": "https://www.youtube.com/embed/gq81uueMkYc",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 7
     },
     {
@@ -101,6 +115,8 @@
       "fecha_estreno": "2018-03-23",
       "descripcion": "Amanda Waller forma el Escuadrón Suicida con Deadshot, Harley Quinn, Tigre de Bronce, Capitán Boomerang, Killer Frost y Copperhead, y los envía a recuperar un potencial objeto místico que está en la mira de otros villanos.",
       "trailer": "https://www.youtube.com/embed/l0FyWzZtI94",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 8
     },
     {
@@ -113,6 +129,8 @@
       "fecha_estreno": "2010-11-16",
       "descripcion": "La película comienza con Black Adam regresando a la Tierra, visto como un meteorito que choca contra una colina en la noche. Más tarde se revela que Billy es un huérfano cuyos padres de acogida lo echaron. Él va a un restaurante para reunirse con Clark Kent, quien está escribiendo un artículo sobre ",
       "trailer": "",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 9
     },
     {
@@ -125,6 +143,8 @@
       "fecha_estreno": "2018-01-12",
       "descripcion": "Ciudad Gótica experimenta una era dorada de descubrimiento e industria, tal como exhibió la próspera Feria Mundial del empresario Bruce Wayne. Pero abajo, en los callejones más oscuros, hay un asesino suelto.",
       "trailer": "https://www.youtube.com/embed/TJ6EX6zX4FU",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 10
     },
     {
@@ -137,6 +157,8 @@
       "fecha_estreno": "2011-06-07",
       "descripcion": "Película original animada del Universo DC que explora el mito de Linterna Verde a través de seis episodios entrelazados, con historias de los aclamados guionistas Geoff Johns, Alan Burnett y Dave Gibbsons entre otros.",
       "trailer": "https://www.youtube.com/embed/nNsGQxY0--c",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 11
     },
     {
@@ -149,6 +171,8 @@
       "fecha_estreno": "2017-07-21",
       "descripcion": "Batman y Nighwing deberán unir fuerzas con Harley Quinn para frenar la amenaza global de Hiedra Venenosa",
       "trailer": "https://www.youtube.com/embed/fPL8uL1h8FA",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 12
     },
     {
@@ -161,6 +185,8 @@
       "fecha_estreno": "2018-03-24",
       "descripcion": "Batman, junto a sus aliados y enemigos, se ve transportado desde la moderna Gotham hasta el Japón feudal. Film animado coproducido entre Japón y EEUU que cuenta con guión de Kazuki Nakashima (Kill La Kill) y diseño de personajes de Takashi Okazaki (Afro Samurai).",
       "trailer": "https://www.youtube.com/embed/08dHXfIprYE",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 13
     }
   ]

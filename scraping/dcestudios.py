@@ -5,6 +5,7 @@ Guarda en: json/dc_studios_top50.json
 """
 import os, json, requests
 from datetime import datetime
+from get_duracion import get_duracion
 
 API_KEY  = "904483be1b785c0c354704cfef7156bc"
 BASE_URL = "https://api.themoviedb.org/3"
@@ -56,7 +57,9 @@ def main():
             "imagen_url":    f"{IMG_BASE}{p['poster_path']}" if p.get("poster_path") else "",
             "fecha_estreno": p.get("release_date",""),
             "descripcion":   p.get("overview","")[:300],
-            "trailer":       ""
+            "trailer":       "",
+            "duracion_min": 0,
+            "duracion":     "—"
         })
     limpias.sort(key=lambda x:(x["rating"],x["votos"]), reverse=True)
     top = limpias[:TOP_N]

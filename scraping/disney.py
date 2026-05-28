@@ -5,6 +5,7 @@ Guarda en: json/disney_top50.json
 """
 import os, json, requests
 from datetime import datetime
+from get_duracion import get_duracion
 
 API_KEY  = "904483be1b785c0c354704cfef7156bc"
 BASE_URL = "https://api.themoviedb.org/3"
@@ -43,12 +44,15 @@ def main():
         if not p.get("id") or p["id"] in vistos: continue
         vistos.add(p["id"])
         gids = p.get("genre_ids",[])
-        limpias.append({"tmdb_id":p["id"],"titulo":p.get("title","Sin título"),"rating":round(p.get("vote_average",0),1),"votos":p.get("vote_count",0),"genero":GENEROS.get(gids[0],"Familiar") if gids else "Familiar","imagen_url":f"{IMG_BASE}{p['poster_path']}" if p.get("poster_path") else "","fecha_estreno":p.get("release_date",""),"descripcion":p.get("overview","")[:300],"trailer":""})
+        limpias.append({"tmdb_id":p["id"],"titulo":p.get("title","Sin título"),"rating":round(p.get("vote_average",0),1),"votos":p.get("vote_count",0),"genero":GENEROS.get(gids[0],"Familiar") if gids else "Familiar","imagen_url":f"{IMG_BASE}{p['poster_path']}" if p.get("poster_path") else "","fecha_estreno":p.get("release_date",""),"descripcion":p.get("overview","")[:300],"trailer":"","duracion_min":0,"duracion":"—"})
     limpias.sort(key=lambda x:(x["rating"],x["votos"]),reverse=True)
     top = limpias[:TOP_N]
     print(f"  Obteniendo tráilers...")
     for i,p in enumerate(top,1):
         p["posicion"]=i; p["trailer"]=get_trailer(p["tmdb_id"])
+        _dur=get_duracion(p["tmdb_id"],"pelicula")
+        p["duracion_min"]=_dur["minutos"]
+        p["duracion"]=_dur["texto"]
         print(f"    {i:02d}. {p['titulo']} {p['rating']}")
     os.makedirs(JSON_DIR,exist_ok=True)
     resultado={"categoria":"disney","nombre":"Disney","plataforma":"DISNEY+","color":"#006e99","descripcion":"La magia de Disney en pantalla grande","fecha_actualizacion":datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"total":len(top),"peliculas":top}

@@ -1,9 +1,9 @@
 """
 ============================================================
-  StreamRank — scraper_marvel.py
-  Scrapea Top 50 Marvel Studios desde TMDb API
-  Guarda en: json/marvel_top50.json
-  Uso: python scraper_marvel.py
+  StreamRank — scraper_appletv.py
+  Scrapea Top 50 Apple TV+ desde TMDb API
+  Guarda en: json/appletv_top50.json
+  Uso: python scraper_appletv.py
 ============================================================
 """
 
@@ -39,7 +39,8 @@ def fetch_peliculas():
     for page in range(1, 4):
         params = {
             "api_key": API_KEY, "language": "es-ES",
-            "with_companies": "420",
+            "with_watch_providers": "350",   # Apple TV+ provider ID en TMDb
+            "watch_region": "US",
             "sort_by": "vote_average.desc",
             "vote_count.gte": 500, "page": page
         }
@@ -52,7 +53,7 @@ def fetch_peliculas():
     return peliculas
 
 def main():
-    print("Scrapeando Marvel Studios...")
+    print("Scrapeando Apple TV+...")
     raw = fetch_peliculas()
     print(f"  {len(raw)} películas brutas obtenidas")
 
@@ -66,7 +67,7 @@ def main():
             "titulo":        p.get("title", "Sin título"),
             "rating":        round(p.get("vote_average", 0), 1),
             "votos":         p.get("vote_count", 0),
-            "genero":        GENEROS.get(gids[0], "Acción") if gids else "Acción",
+            "genero":        GENEROS.get(gids[0], "Drama") if gids else "Drama",
             "imagen_url":    f"{IMG_BASE}{p['poster_path']}" if p.get("poster_path") else "",
             "fecha_estreno": p.get("release_date", ""),
             "descripcion":   p.get("overview", "")[:300],
@@ -84,13 +85,13 @@ def main():
 
     os.makedirs(JSON_DIR, exist_ok=True)
     resultado = {
-        "categoria": "marvel", "nombre": "Marvel",
-        "plataforma": "DISNEY+", "color": "#e7000b",
-        "descripcion": "Las mejores películas del Universo Marvel",
+        "categoria": "appletv", "nombre": "Apple TV+",
+        "plataforma": "APPLE TV", "color": "#000000",
+        "descripcion": "Lo más destacado de Apple TV+",
         "fecha_actualizacion": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "total": len(top), "peliculas": top
     }
-    path = os.path.join(JSON_DIR, "marvel_top50.json")
+    path = os.path.join(JSON_DIR, "appletv_top50.json")
     with open(path, "w", encoding="utf-8") as f:
         json.dump(resultado, f, ensure_ascii=False, indent=2)
     print(f"Guardado en {path}")

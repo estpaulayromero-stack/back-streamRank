@@ -1,10 +1,10 @@
 {
-  "categoria": "starwars",
-  "nombre": "Star Wars",
-  "plataforma": "DISNEY+",
-  "color": "#ffe81f",
-  "descripcion": "Toda la saga de Star Wars",
-  "fecha_actualizacion": "2026-05-27 20:04:14",
+  "categoria": "startrek",
+  "nombre": "Star Trek",
+  "plataforma": "APPLE TV",
+  "color": "#1565c0",
+  "descripcion": "La saga completa de Star Trek en cine",
+  "fecha_actualizacion": "2026-05-27 20:22:17",
   "total": 50,
   "peliculas": [
     {
@@ -17,8 +17,8 @@
       "fecha_estreno": "1980-05-20",
       "descripcion": "Tras un ataque sorpresa de las tropas imperiales a las bases camufladas de la alianza rebelde, Luke Skywalker, en compañía de R2D2, parte hacia el planeta Dagobah en busca de Yoda, el último maestro Jedi, para que le enseñe los secretos de la Fuerza. Mientras, Han Solo, la princesa Leia, Chewbacca, ",
       "trailer": "https://www.youtube.com/embed/xr3hPFJAHO4",
-      "duracion_min": 124,
-      "duracion": "124min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 1
     },
     {
@@ -31,8 +31,8 @@
       "fecha_estreno": "1977-05-25",
       "descripcion": "La princesa Leia, líder del movimiento rebelde que desea reinstaurar la República en la galaxia en los tiempos ominosos del Imperio, es capturada por las malévolas Fuerzas Imperiales, capitaneadas por el implacable Darth Vader, el sirviente más fiel del emperador. El intrépido Luke Skywalker, ayudad",
       "trailer": "https://www.youtube.com/embed/beAH5vea99k",
-      "duracion_min": 121,
-      "duracion": "121min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 2
     },
     {
@@ -40,13 +40,13 @@
       "titulo": "Alien, el octavo pasajero",
       "rating": 8.2,
       "votos": 16356,
-      "genero": "Ciencia Ficción",
+      "genero": "Terror",
       "imagen_url": "https://image.tmdb.org/t/p/w500/pZ9cAe5FxexJjpCaeiETbXzz3Fs.jpg",
       "fecha_estreno": "1979-05-25",
       "descripcion": "De regreso a la Tierra, la nave de carga Nostromo interrumpe su viaje y despierta a sus siete tripulantes. El ordenador central, MADRE, ha detectado la misteriosa transmisión de una forma de vida desconocida, procedente de un planeta cercano aparentemente deshabitado. La nave se dirige entonces al e",
       "trailer": "https://www.youtube.com/embed/D3oC17nILkw",
-      "duracion_min": 117,
-      "duracion": "117min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 3
     },
     {
@@ -59,8 +59,8 @@
       "fecha_estreno": "2024-02-27",
       "descripcion": "Sigue el viaje mítico de Paul Atreides mientras se une a Chani y los Fremen en una guerra de venganza contra los conspiradores que destruyeron a su familia. Al enfrentarse a una elección entre el amor de su vida y el destino del universo conocido, Paul se esfuerza por evitar un futuro terrible que s",
       "trailer": "https://www.youtube.com/embed/nWzes49-2DA",
-      "duracion_min": 167,
-      "duracion": "167min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 4
     },
     {
@@ -73,8 +73,8 @@
       "fecha_estreno": "1968-04-02",
       "descripcion": "Mientras investigan la aparición de misteriosos monolitos en el universo, dos astronautas luchan contra la inteligencia artificial de su nave.",
       "trailer": "https://www.youtube.com/embed/Z2UWOeBcsJI",
-      "duracion_min": 149,
-      "duracion": "149min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 5
     },
     {
@@ -87,8 +87,8 @@
       "fecha_estreno": "1983-05-25",
       "descripcion": "Luke Skywalker y la princesa Leia deben viajar a Tatooine para liberar a Han Solo. Para conseguirlo, deben infiltrarse en la peligrosa guarida de Jabba the Hutt, el gángster más temido de la galaxia. Una vez reunidos, el equipo recluta a tribus de Ewoks para combatir a las fuerzas imperiales en los ",
       "trailer": "https://www.youtube.com/embed/Q4xMJxTaToQ",
-      "duracion_min": 133,
-      "duracion": "133min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 6
     },
     {
@@ -101,8 +101,8 @@
       "fecha_estreno": "2023-05-03",
       "descripcion": "La querida banda de los Guardianes se instala en Knowhere. Pero sus vidas no tardan en verse alteradas por los ecos del turbulento pasado de Rocket. Peter Quill, aún conmocionado por la pérdida de Gamora, debe reunir a su equipo en una peligrosa misión para salvar la vida de Rocket, una misión que, ",
       "trailer": "https://www.youtube.com/embed/FTGm7EexNmw",
-      "duracion_min": 153,
-      "duracion": "153min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 7
     },
     {
@@ -115,8 +115,8 @@
       "fecha_estreno": "2021-09-15",
       "descripcion": "En un lejano futuro, la galaxia conocida es gobernada mediante un sistema feudal de casas nobles bajo el mandato del Emperador. Las alianzas y la política giran entorno a un pequeño planeta, Dune,  del que extrae la 'especia melange', la materia prima que permite los viajes espaciales. La Casa Atrei",
       "trailer": "https://www.youtube.com/embed/kPjOcWHVNGo",
-      "duracion_min": 155,
-      "duracion": "155min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 8
     },
     {
@@ -124,13 +124,13 @@
       "titulo": "El imperio de los sueños. La historia de Star Wars",
       "rating": 7.8,
       "votos": 207,
-      "genero": "Ciencia Ficción",
+      "genero": "General",
       "imagen_url": "https://image.tmdb.org/t/p/w500/aax8MCh8kohLCLhRyQBonl1V45g.jpg",
       "fecha_estreno": "2004-09-20",
       "descripcion": "Star Wars cambió para siempre la manera de hacer, ver y oir el cine, transformó al propio Hollywood e influyó en toda una generación. Este documental de dos horas y media de duración revela el trasfondo de la serie de películas independientes con más éxito de la historia. Es la saga de un “outsider”",
       "trailer": "https://www.youtube.com/embed/XJG5xzhNnCc",
-      "duracion_min": 151,
-      "duracion": "151min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 9
     },
     {
@@ -143,8 +143,8 @@
       "fecha_estreno": "1997-05-02",
       "descripcion": "Cada 5.000 años se abre una puerta entre las dimensiones. En una dimensión existe el Universo y la vida. En la otra dimensión existe un elemento que no está hecho ni de tierra, ni de fuego, ni de aire, ni de agua, sino que es una anti-energía, la anti-vida: es el quinto elemento.",
       "trailer": "https://www.youtube.com/embed/5Sg2RkdkSvk",
-      "duracion_min": 127,
-      "duracion": "127min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 10
     },
     {
@@ -157,8 +157,8 @@
       "fecha_estreno": "2016-12-14",
       "descripcion": "El Imperio Galáctico ha terminado de construir el arma más poderosa de todas, la Estrella de la muerte, pero un grupo de rebeldes decide realizar una misión de muy alto riesgo: robar los planos de dicha estación antes de que entre en operaciones, mientras se enfrentan también al poderoso Lord Sith c",
       "trailer": "https://www.youtube.com/embed/Xcs4OpUJWrM",
-      "duracion_min": 133,
-      "duracion": "133min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 11
     },
     {
@@ -171,8 +171,8 @@
       "fecha_estreno": "2005-05-17",
       "descripcion": "Último capítulo de la saga de Star Wars, en el que Anakin Skywalker definitivamente se pasa al lado oscuro. En el Episodio III aparecerá el General Grievous, un ser implacable mitad-alien mitad-robot, el líder del ejército separatista Droid. Los Sith son los amos del lado oscuro de la Fuerza y los e",
       "trailer": "https://www.youtube.com/embed/kqkfjBKmWc4",
-      "duracion_min": 140,
-      "duracion": "140min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 12
     },
     {
@@ -185,8 +185,8 @@
       "fecha_estreno": "1982-06-04",
       "descripcion": "El Enterprise transporta a un grupo de científicos que se disponen a poner a prueba el mayor experimento jamás imaginado por el hombre: la formación de vida en un planeta inerte.",
       "trailer": "https://www.youtube.com/embed/JjjPwogbT9o",
-      "duracion_min": 112,
-      "duracion": "112min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 13
     },
     {
@@ -199,8 +199,8 @@
       "fecha_estreno": "2009-05-06",
       "descripcion": "Todo está preparado para el viaje inaugural de la nave más moderna que jamás se haya creado: la USS Enterprise. Su joven tripulación tiene una importante misión: encontrar una manera de detener al malvado Nero que, movido por la venganza, amenaza a toda la humanidad. Pero el destino de la galaxia es",
       "trailer": "https://www.youtube.com/embed/xftdFugdA70",
-      "duracion_min": 127,
-      "duracion": "127min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 14
     },
     {
@@ -213,8 +213,8 @@
       "fecha_estreno": "2005-09-25",
       "descripcion": "Siglo XXVI. Tras ganar la guerra Civil Galáctica, las dos grandes potencias mundiales, EE.UU. y China, se unen para formar un gobierno totalitario llamado Alianza Universal. El Capitán Malcolm Reynolds es un curtido veterano de la guerra que se gana la vida alquilando su nave, la Serenity y buscando",
       "trailer": "https://www.youtube.com/embed/zybHB2V27G8",
-      "duracion_min": 119,
-      "duracion": "119min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 15
     },
     {
@@ -227,8 +227,8 @@
       "fecha_estreno": "2013-05-05",
       "descripcion": "Cuando a la tripulación de la nave Enterprise le ordenan que regrese a casa, en la Tierra se enfrentan a una terrorífica fuerza que, aparentemente desde dentro, ha perpetrado un ataque a la cúpula de la Federación y todo lo que ésta representa, sumiendo a la flota en una profunda crisis. Para intent",
       "trailer": "https://www.youtube.com/embed/FFAiOtL_rNo",
-      "duracion_min": 132,
-      "duracion": "132min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 16
     },
     {
@@ -241,8 +241,8 @@
       "fecha_estreno": "1996-11-22",
       "descripcion": "El Capitán del Enterprise encuentra de nuevo a sus adversarios, los Borg, a quienes intenta impedir modificar la historia y conquistar la Tierra en el siglo XXI, por medio de un viaje en el tiempo, que impediría el primer vuelo warp de la raza humana y el consiguiente primer contacto con una raza ex",
       "trailer": "https://www.youtube.com/embed/NEz4Guub9_U",
-      "duracion_min": 106,
-      "duracion": "106min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 17
     },
     {
@@ -255,8 +255,8 @@
       "fecha_estreno": "2015-12-15",
       "descripcion": "Treinta años después de la victoria de la Alianza Rebelde sobre la segunda Estrella de la Muerte (hechos narrados en el Episodio VI: El retorno del Jedi), la galaxia está todavía en guerra. Una nueva República se ha constituido, pero una siniestra organización, la Primera Orden, ha resurgido de las ",
       "trailer": "https://www.youtube.com/embed/V8qlIZsutAQ",
-      "duracion_min": 136,
-      "duracion": "136min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 18
     },
     {
@@ -269,8 +269,8 @@
       "fecha_estreno": "1986-11-26",
       "descripcion": "En el siglo XXIII, un misterioso poder alienígena amenaza la Tierra, evaporando los océanos y destruyendo la atmósfera. En un frenético intento para salvar a la humanidad, el Capitán Kirk y su tripulación viajan en el tiempo y regresan al San Francisco de 1986, encontrándose con un mundo de punks, p",
       "trailer": "https://www.youtube.com/embed/4IJVV2sjPT8",
-      "duracion_min": 114,
-      "duracion": "114min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 19
     },
     {
@@ -283,8 +283,8 @@
       "fecha_estreno": "2007-11-12",
       "descripcion": "Battlestar Galactica Razor es una película hecha para la televisión que se centra en dos momentos distintos de la guerra entre cylons y humanos. La historia se abre justo después del final de la segunda temporada de la serie Battlestar Galactica, tras el nombramiento de Lee Adama como máximo respons",
       "trailer": "https://www.youtube.com/embed/eIJmeBOSIyE",
-      "duracion_min": 88,
-      "duracion": "88min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 20
     },
     {
@@ -297,8 +297,8 @@
       "fecha_estreno": "2014-07-26",
       "descripcion": "Hace algunos veranos en una Galaxia muy, muy lejana… Phineas y Ferb disfrutan con el resplandor de los Soles Gemelos del planeta Tatooine, hasta que los planos para destruir la Estrella de la Muerte caen accidentalmente en sus manos, empujándoles (y al Agente P) a una rebelión galáctica y una lucha ",
       "trailer": "https://www.youtube.com/embed/DYtnfbrRKvA",
-      "duracion_min": 51,
-      "duracion": "51min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 21
     },
     {
@@ -311,8 +311,8 @@
       "fecha_estreno": "1994-10-28",
       "descripcion": "Un coronel y un científico, movidos por distintos intereses, investigan el misterioso hallazgo en unas excavaciones de un extraño artefacto al que llaman \"Puerta de las Estrellas\". Acompañados de un equipo de reconocimiento, atraviesan la Puerta y son transportados a un lejano planeta.",
       "trailer": "https://www.youtube.com/embed/JubhSGaSJXo",
-      "duracion_min": 128,
-      "duracion": "128min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 22
     },
     {
@@ -325,8 +325,8 @@
       "fecha_estreno": "1991-12-06",
       "descripcion": "Tras años de guerra, la Federación y el Imperio Klingon se disponen a celebrar una conferencia de paz. Pero el panorama de una negociación intergaláctica, con implacables enemigos, preocupa al Almirante Kirk. Cuando una nave Klingon es atacada y responsabilizan al Enterprise, ambos mundos se prepara",
       "trailer": "https://www.youtube.com/embed/tUQtoL6LpMU",
-      "duracion_min": 109,
-      "duracion": "109min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 23
     },
     {
@@ -339,8 +339,8 @@
       "fecha_estreno": "2021-02-05",
       "descripcion": "En 2092, la tripulación de una nave basurero espacial llama Victory descubre un robot humanoide llamado Dorothy, un arma de destrucción masiva, y se ven envueltos en un negocio de alto riesgo.",
       "trailer": "https://www.youtube.com/embed/8ryn1W4w5Yw",
-      "duracion_min": 136,
-      "duracion": "136min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 24
     },
     {
@@ -353,8 +353,8 @@
       "fecha_estreno": "2017-12-13",
       "descripcion": "La malvada Primera Orden se ha vuelto más poderosa y tiene contra las cuerdas a la Resistencia, liderada por la General Leia Organa. El piloto Poe Dameron encabeza una misión para intentar destruir un acorazado de la Primera Orden. Mientras tanto, la joven Rey tendrá que definir su futuro y su vocac",
       "trailer": "https://www.youtube.com/embed/anOJjqQb8x0",
-      "duracion_min": 150,
-      "duracion": "150min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 25
     },
     {
@@ -367,8 +367,8 @@
       "fecha_estreno": "2016-07-07",
       "descripcion": "El USS Enterprise, la nave insignia de la Flota Estelar, liderada por el capitán James T. Kirk, vuelve a surcar el universo, para proteger la Tierra y el resto de planetas aliados. Pero la tranquilidad durará poco y el peligro acecha. La primera etapa de su misión les llevará a un territorio descono",
       "trailer": "https://www.youtube.com/embed/t0jgLoLAr-E",
-      "duracion_min": 122,
-      "duracion": "122min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 26
     },
     {
@@ -381,37 +381,51 @@
       "fecha_estreno": "2026-05-20",
       "descripcion": "Continuación de la serie \"The Mandalorian\" en forma de película. El Imperio ha caído y los señores de la guerra imperiales siguen dispersos por toda la galaxia. Mientras la incipiente Nueva República trabaja para proteger todo por lo que luchó la Rebelión, ha reclutado la ayuda del legendario cazarr",
       "trailer": "https://www.youtube.com/embed/bDmr-8CaeBg",
-      "duracion_min": 132,
-      "duracion": "132min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 27
+    },
+    {
+      "tmdb_id": 257368,
+      "titulo": "Battlestar Galactica: Sangre y Metal",
+      "rating": 6.8,
+      "votos": 173,
+      "genero": "Ciencia Ficción",
+      "imagen_url": "https://image.tmdb.org/t/p/w500/iDYlAENFWaSi3sTDxySWp2b9H0F.jpg",
+      "fecha_estreno": "2012-12-09",
+      "descripcion": "Battlestar Galáctica: Sangre y Metal está ambientada en el décimo año de la Guerra Cylon. Mientras la batalla entre los humanos y su creación, una raza robótica despiadada y casi perfecta, se desenvuelve a través de los doce mundos coloniales, un valiente piloto novato entra en escena. Se trata de W",
+      "trailer": "https://www.youtube.com/embed/IxL8g1_H-KQ",
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 28
     },
     {
       "tmdb_id": 7453,
       "titulo": "Guía del autoestopista galáctico",
       "rating": 6.7,
-      "votos": 4233,
+      "votos": 4234,
       "genero": "Aventura",
       "imagen_url": "https://image.tmdb.org/t/p/w500/u3Mr30XEHUwAWlJuUvZIdBfKjNF.jpg",
       "fecha_estreno": "2005-04-28",
       "descripcion": "Segundos antes de que la Tierra sea destruida por una constructora extraterrestre, Arthur Dent es rescatado por su amigo Ford Prefect, un investigador que está escribiendo una nueva edición de \"La guía del autoestopista galáctico\".",
       "trailer": "https://www.youtube.com/embed/MbGNcoB2Y4I",
-      "duracion_min": 108,
-      "duracion": "108min",
-      "posicion": 28
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 29
     },
     {
       "tmdb_id": 4437,
       "titulo": "2010: Odisea dos",
       "rating": 6.7,
       "votos": 1058,
-      "genero": "Ciencia Ficción",
+      "genero": "Suspense",
       "imagen_url": "https://image.tmdb.org/t/p/w500/nMA0Z5Vw05GwHyugYl5s72Lf0Z.jpg",
       "fecha_estreno": "1984-12-06",
       "descripcion": "Nueve años después de que la USS Discovery se perdiese en el espacio, una expedición conjunta de los Estados Unidos y la Unión Soviética es enviada a Júpiter para reactivar el ordenador Hal 9000, que dirigía la nave accidentada, y descubrir el problema que frustró la expedición del Discovery misión ",
       "trailer": "https://www.youtube.com/embed/Gyf8QWoL7T0",
-      "duracion_min": 116,
-      "duracion": "116min",
-      "posicion": 29
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 30
     },
     {
       "tmdb_id": 1893,
@@ -423,9 +437,9 @@
       "fecha_estreno": "1999-05-19",
       "descripcion": "La Federación de Comercio ha bloqueado el pequeño planeta de Naboo, gobernado por la joven Reina Amidala, como parte de un plan ideado por Sith Darth Sidious, que manteniéndose en el anonimato dirige a los neimoidianos, que están al mando de la Federación. Amidala es convencida por los Jedis Qui-Gon",
       "trailer": "https://www.youtube.com/embed/n1CUHjrc9Sc",
-      "duracion_min": 131,
-      "duracion": "131min",
-      "posicion": 30
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 31
     },
     {
       "tmdb_id": 1894,
@@ -437,9 +451,9 @@
       "fecha_estreno": "2002-05-15",
       "descripcion": "Corren tenebrosos tiempos para la República. Ésta continúa envuelta en luchas y sumida en el caos. Un movimiento separatista, formado por centenares de planetas y poderosas alianzas y y lideradas por el misterioso conde Dooku, abre nuevas amenazas para la galaxia, a la que ni siquiera los Jedi parec",
       "trailer": "https://www.youtube.com/embed/DywnxIuPtUs",
-      "duracion_min": 132,
-      "duracion": "132min",
-      "posicion": 31
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 32
     },
     {
       "tmdb_id": 348350,
@@ -451,9 +465,9 @@
       "fecha_estreno": "2018-05-15",
       "descripcion": "Precuela de la saga Star Wars, en la que se conocerán los primeros pasos que dio el personaje de Han Solo, desde joven hasta convertirse en el antihéroe que vimos en \"Una nueva esperanza\", antes de que se encontrase con Luke y Obi-Wan en la cantina de Mos Eisley.",
       "trailer": "https://www.youtube.com/embed/C-YZiAXcbY8",
-      "duracion_min": 135,
-      "duracion": "135min",
-      "posicion": 32
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 33
     },
     {
       "tmdb_id": 339964,
@@ -465,9 +479,9 @@
       "fecha_estreno": "2017-07-19",
       "descripcion": "Una fuerza oscura amenaza a Alpha, una vasta metrópolis y hogar de especies de mil planetas. Los agentes especiales Valerian y Laureline deben correr para identificar la amenaza y salvaguardar no solo a Alpha, sino al futuro del universo.",
       "trailer": "https://www.youtube.com/embed/O-ZfU8QfqgE",
-      "duracion_min": 137,
-      "duracion": "137min",
-      "posicion": 33
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 34
     },
     {
       "tmdb_id": 157,
@@ -479,9 +493,23 @@
       "fecha_estreno": "1984-06-01",
       "descripcion": "Tras la desaparición de Spock y la creación del planeta Génesis, la tripulación del Enterprise se dispone a localizar el cuerpo de su compañero, a petición del padre de éste.",
       "trailer": "https://www.youtube.com/embed/KN1MnTZZ9Q8",
-      "duracion_min": 101,
-      "duracion": "101min",
-      "posicion": 34
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 35
+    },
+    {
+      "tmdb_id": 70608,
+      "titulo": "Lego Star Wars: La Amenaza Padawan",
+      "rating": 6.6,
+      "votos": 159,
+      "genero": "General",
+      "imagen_url": "https://image.tmdb.org/t/p/w500/lhO0BRjmgWDlosXWHd1yEeSqwlb.jpg",
+      "fecha_estreno": "2011-07-22",
+      "descripcion": "La historia muestra a Yoda dejando a un grupo de Padawans a cargo de C-3PO y R2-D2 durante un ataque al Senado Galáctico, presentando varios lugares conocidos de la saga y personajes interesantes como “Ian”. Especial televisivo de Star Wars emitido por el canal Cartoon Network el 22 de julio de 2011",
+      "trailer": "https://www.youtube.com/embed/erIeiMX5p08",
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 36
     },
     {
       "tmdb_id": 152,
@@ -493,9 +521,9 @@
       "fecha_estreno": "1979-12-07",
       "descripcion": "Siglo XXIII. Al Almirante James T. Kirk, de la nave Enterprise, se le encomienda una difícil misión: neutralizar un extraño cuerpo para que no colisione con la Tierra. El Oficial Spock, el Capitán Willard Decker, la Asesora Ilía y el Doctor McCoy ayudan al Almirante Kirk a descubrir la naturaleza de",
       "trailer": "https://www.youtube.com/embed/zrXvBaFFu80",
-      "duracion_min": 131,
-      "duracion": "131min",
-      "posicion": 35
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 37
     },
     {
       "tmdb_id": 193,
@@ -507,9 +535,9 @@
       "fecha_estreno": "1994-11-18",
       "descripcion": "James T. Kirk, Montgomery Scott y Pavel Chekov asisten al viaje inaugural del USS Enterprise-B, que es requerido para ayudar a un convoy de naves que se hallan atrapadas en un cinturón de energía. Debido a la inexperiencia del capitán, Kirk decide ayudar pero cuando la cubierta donde se hallaba es d",
       "trailer": "https://www.youtube.com/embed/IcSgqjqOOIM",
-      "duracion_min": 113,
-      "duracion": "113min",
-      "posicion": 36
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 38
     },
     {
       "tmdb_id": 200,
@@ -521,23 +549,51 @@
       "fecha_estreno": "1998-12-11",
       "descripcion": "Jean-Luc Picard, capitán del USS Enterprise, recibe un mensaje de la flota. Al parecer, el comandante Data, que se encontraba estudiando una sociedad primitiva, ha sufrido un cortocircuito y ha revelado la existencia del equipo de investigación a los habitantes del planeta Ba'Ku. Pronto descubrirá q",
       "trailer": "https://www.youtube.com/embed/gm2M8oUrEyg",
-      "duracion_min": 99,
-      "duracion": "99min",
-      "posicion": 37
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 39
+    },
+    {
+      "tmdb_id": 70703,
+      "titulo": "The Captains",
+      "rating": 6.4,
+      "votos": 121,
+      "genero": "General",
+      "imagen_url": "https://image.tmdb.org/t/p/w500/ex8S1Xypc8NHb2jvI3hZskPyVhh.jpg",
+      "fecha_estreno": "2011-07-22",
+      "descripcion": "Documental que se centra en el Capitán Kirk original y su viaje a través de la franquicia Star Trek.",
+      "trailer": "https://www.youtube.com/embed/nKOnV0wS6Vs",
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 40
+    },
+    {
+      "tmdb_id": 75311,
+      "titulo": "El pueblo contra George Lucas",
+      "rating": 6.4,
+      "votos": 112,
+      "genero": "General",
+      "imagen_url": "https://image.tmdb.org/t/p/w500/4vv7roShhYsFSp8xoCtzJYk8zD0.jpg",
+      "fecha_estreno": "2010-03-14",
+      "descripcion": "Realizado tras un llamamiento a todos los fans norteamericanos que quisieran hablar sobre su amor/odio hacia Lucas y el universo de \"La guerra de las galaxias\", \"The People vs. George Lucas\" se centra en el fanatismo alrededor de esta saga y su propio creador, George Lucas.",
+      "trailer": "https://www.youtube.com/embed/onhNEGVGHFQ",
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 41
     },
     {
       "tmdb_id": 181812,
       "titulo": "Star Wars: El ascenso de Skywalker",
       "rating": 6.3,
-      "votos": 10827,
+      "votos": 10828,
       "genero": "Aventura",
       "imagen_url": "https://image.tmdb.org/t/p/w500/oeQxq6If4DcW6ADIYCF9SQwKov.jpg",
       "fecha_estreno": "2019-12-18",
       "descripcion": "Un año después de los eventos de \"Los últimos Jedi\", los restos de la Resistencia se enfrentarán una vez más a la Primera Orden, involucrando conflictos del pasado y del presente. Mientras tanto, el antiguo conflicto entre los Jedi y los Sith llegará a su clímax, lo que llevará a la saga de los Skyw",
       "trailer": "https://www.youtube.com/embed/82R2u7OuGOA",
-      "duracion_min": 141,
-      "duracion": "141min",
-      "posicion": 38
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 42
     },
     {
       "tmdb_id": 201,
@@ -549,9 +605,9 @@
       "fecha_estreno": "2002-12-13",
       "descripcion": "La policía romulana obtiene ADN del Capitán Picard y fabrican un clon, llamado Shinzon, con la finalidad de introducirlo en la Federación, pero ese plan queda en nada y envían al clon a las minas de dilitio de Remo, el planeta hermano de Rómulo, la capital del Imperio Romulano. Shinzon organiza un g",
       "trailer": "https://www.youtube.com/embed/Ts8dfaRtlqM",
-      "duracion_min": 112,
-      "duracion": "112min",
-      "posicion": 39
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 43
     },
     {
       "tmdb_id": 841,
@@ -563,9 +619,9 @@
       "fecha_estreno": "1984-12-14",
       "descripcion": "Por orden imperial la familia Atreides deberá hacerse cargo de la explotación del desértico planeta de Arrakis, conocido también como Dune, el único planeta donde se encuentra 'la especia', una potente droga que, además, es necesaria para los vuelos espaciales.",
       "trailer": "https://www.youtube.com/embed/mtLd5CWuwbo",
-      "duracion_min": 137,
-      "duracion": "137min",
-      "posicion": 40
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 44
     },
     {
       "tmdb_id": 848326,
@@ -577,9 +633,9 @@
       "fecha_estreno": "2023-12-15",
       "descripcion": "Cuando los crueles ejércitos del Mundomadre amenazan un poblado pacífico de una luna remota, una misteriosa forastera se convierte en su mejor baza para sobrevivir.",
       "trailer": "https://www.youtube.com/embed/fk9UKHyKxU8",
-      "duracion_min": 125,
-      "duracion": "125min",
-      "posicion": 41
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 45
     },
     {
       "tmdb_id": 3604,
@@ -591,9 +647,9 @@
       "fecha_estreno": "1980-12-05",
       "descripcion": "El doctor Zarkov, un científico expulsado de la NASA, viaja en un cohete espacial, junto al joven jugador de rugby Flash Gordon y su amiga Dale Arden. Los tres intentarán salvar al planeta de la amenaza de Ming, el emperador del lejano reino Mongo, que ha lanzado una de sus lunas para que choque con",
       "trailer": "https://www.youtube.com/embed/f31Je2x4gjE",
-      "duracion_min": 111,
-      "duracion": "111min",
-      "posicion": 42
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 46
     },
     {
       "tmdb_id": 13532,
@@ -605,9 +661,9 @@
       "fecha_estreno": "2009-02-06",
       "descripcion": "Un grupo de cuatro amigos, fanáticos de Star Wars se vuelven juntar años después de graduarse  para intentar cumplir la promesa que le hicieron a un amigo fallecido: Ver antes que nadie el Episodio I, secuestrando a George Lucas si fuera necesario.",
       "trailer": "https://www.youtube.com/embed/OdoJujK7hSs",
-      "duracion_min": 90,
-      "duracion": "90min",
-      "posicion": 43
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 47
     },
     {
       "tmdb_id": 934632,
@@ -619,9 +675,23 @@
       "fecha_estreno": "2024-04-19",
       "descripcion": "Los rebeldes se preparan para luchar contra las implacables fuerzas del Mundomadre mientras se forjan vínculos inquebrantables, surgen nuevos héroes y nacen las leyendas.",
       "trailer": "https://www.youtube.com/embed/zUTQ8atM_9U",
-      "duracion_min": 121,
-      "duracion": "121min",
-      "posicion": 44
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 48
+    },
+    {
+      "tmdb_id": 1033219,
+      "titulo": "Attack on Titan",
+      "rating": 6.0,
+      "votos": 177,
+      "genero": "Ciencia Ficción",
+      "imagen_url": "https://image.tmdb.org/t/p/w500/qNz4l8UgTkD8rlqiKZ556pCJ9iO.jpg",
+      "fecha_estreno": "2022-09-30",
+      "descripcion": "A medida que se agota el agua viable en la Tierra, se envía una misión a la luna Titán de Saturno para recuperar reservas sostenibles de H2O de sus habitantes alienígenas. Pero justo cuando los humanos adquieren el preciado recurso, son atacados por los titanes rebeldes, quienes no confían en que lo",
+      "trailer": "https://www.youtube.com/embed/vdpj3SQpKcw",
+      "duracion_min": 0,
+      "duracion": "—",
+      "posicion": 49
     },
     {
       "tmdb_id": 172,
@@ -633,78 +703,8 @@
       "fecha_estreno": "1989-06-09",
       "descripcion": "La nave Enterprise se dirige al planeta Nimbus III, para negociar la liberación de unos embajadores secuestrados. Allí descubrirán que el jefe de la banda es un pariente de Spock, obsesionado por encontrar el planeta que es considerado la fuente de la vida.",
       "trailer": "https://www.youtube.com/embed/6dxp_4bB2sA",
-      "duracion_min": 102,
-      "duracion": "102min",
-      "posicion": 45
-    },
-    {
-      "tmdb_id": 8870,
-      "titulo": "Planeta rojo",
-      "rating": 5.7,
-      "votos": 1154,
-      "genero": "Ciencia Ficción",
-      "imagen_url": "https://image.tmdb.org/t/p/w500/dz51Grb68ScPpP4z9gKe6CJleXj.jpg",
-      "fecha_estreno": "2000-11-10",
-      "descripcion": "La comandante de misión Kate Bowman es la piloto y comandante de la misión más importante del siglo XXI: salvar a la raza humana. Es el año 2050, la Tierra se está muriendo, y colonizar Marte es la única alternativa a la destrucción. Bowman y su tripulación han hecho este viaje para investigar a qué",
-      "trailer": "https://www.youtube.com/embed/GROpZD40mk0",
-      "duracion_min": 107,
-      "duracion": "107min",
-      "posicion": 46
-    },
-    {
-      "tmdb_id": 76757,
-      "titulo": "El destino de Júpiter",
-      "rating": 5.5,
-      "votos": 7106,
-      "genero": "Ciencia Ficción",
-      "imagen_url": "https://image.tmdb.org/t/p/w500/jBzPlhGrrSgQozGMzyoDPXUWdMt.jpg",
-      "fecha_estreno": "2015-02-04",
-      "descripcion": "La película se centra en formas superiores de vida que nos vigilan desde otros mundos. Júpiter Jones, una inmigrante rusa que se dedica a fregar retretes para ganarse la vida, posee la misma composición genética que la Reina del Universo, por lo que será considerada como una amenaza para estos seres",
-      "trailer": "https://www.youtube.com/embed/z_9WN9lgjow",
-      "duracion_min": 125,
-      "duracion": "125min",
-      "posicion": 47
-    },
-    {
-      "tmdb_id": 14460,
-      "titulo": "Los 7 magníficos del espacio",
-      "rating": 5.4,
-      "votos": 226,
-      "genero": "Ciencia Ficción",
-      "imagen_url": "https://image.tmdb.org/t/p/w500/ngew26jOG8YhhEdvQiDfb4O357p.jpg",
-      "fecha_estreno": "1980-09-08",
-      "descripcion": "Los sucesivos y reiterados ataques sufridos por los habitantes de un pequeño planeta en una lejana galaxia hacen que contraten a un ejército de mercenarios para que les proteja de los invasores. Remake del film de Kurosawa \"Los siete samuráis\", cambiando la ambientación japonesa por un futuro al est",
-      "trailer": "https://www.youtube.com/embed/2t7z_44nGio",
-      "duracion_min": 103,
-      "duracion": "103min",
-      "posicion": 48
-    },
-    {
-      "tmdb_id": 10350,
-      "titulo": "Wing Commander",
-      "rating": 4.8,
-      "votos": 285,
-      "genero": "Ciencia Ficción",
-      "imagen_url": "https://image.tmdb.org/t/p/w500/2Anr5VMIT0lXYYi7wcXjJNJOYAh.jpg",
-      "fecha_estreno": "1999-03-11",
-      "descripcion": "Adaptación de un videojuego a la pantalla grande. En el siglo XXVII, la Confederación que gobierna a la humanidad está lista para declarar la guerra a los Kilrathi, una raza extraterrestre que pretende invadir la Tierra. Un escuadrón formados por tres jóvenes pilotos será el equipo que tendrá que ha",
-      "trailer": "",
-      "duracion_min": 100,
-      "duracion": "100min",
-      "posicion": 49
-    },
-    {
-      "tmdb_id": 74849,
-      "titulo": "El especial navideño de Star Wars",
-      "rating": 3.4,
-      "votos": 510,
-      "genero": "Aventura",
-      "imagen_url": "https://image.tmdb.org/t/p/w500/3vFFdLKigS3swN0pIBQbuRqSXIy.jpg",
-      "fecha_estreno": "1978-11-17",
-      "descripcion": "Chewbacca y Han Solo viajan a Kashyyyk, el planeta natal de Chewie, para celebrar el Life Day (una especie de navidad wookie). Pero Darth Vader, convertido en una especie de Scrooge intergaláctico, ha decidido capturarlos. El especial continuaba con números musicales, largos diálogos en lenguaje woo",
-      "trailer": "https://www.youtube.com/embed/F3-Df7ROAxA",
-      "duracion_min": 97,
-      "duracion": "97min",
+      "duracion_min": 0,
+      "duracion": "—",
       "posicion": 50
     }
   ]
